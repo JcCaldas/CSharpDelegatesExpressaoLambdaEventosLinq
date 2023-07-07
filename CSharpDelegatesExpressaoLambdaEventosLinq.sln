@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Delegate", "01Delegate\01Delegate.csproj", "{801CA5B8-56D2-4106-B42A-32657F0DDF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01Delegate", "01Delegate\01Delegate.csproj", "{801CA5B8-56D2-4106-B42A-32657F0DDF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02DelegateMulticast", "02DelegateMulticast\02DelegateMulticast.csproj", "{C1E5722B-888A-465B-AF41-01317B3BFE92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03MetodosAnonimos", "03MetodosAnonimos\03MetodosAnonimos.csproj", "{5BA79B37-B44F-4CE7-BC78-608911E0C9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04ExpressaoLambda", "04ExpressaoLambda\04ExpressaoLambda.csproj", "{626E4791-D88F-45D0-A219-294BD49297EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05DelegatePredicate", "05DelegatePredicate\05DelegatePredicate.csproj", "{296A50AD-DDA4-42AE-8958-2C3A013D5F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06DelegateAction", "06DelegateAction\06DelegateAction.csproj", "{204931BE-D2BF-49C6-9575-33F7C7AFA666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07DelegateFunc", "07DelegateFunc\07DelegateFunc.csproj", "{ED0EE731-1AA2-4576-85B2-A43E61A0E583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{801CA5B8-56D2-4106-B42A-32657F0DDF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{801CA5B8-56D2-4106-B42A-32657F0DDF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{801CA5B8-56D2-4106-B42A-32657F0DDF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E5722B-888A-465B-AF41-01317B3BFE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E5722B-888A-465B-AF41-01317B3BFE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E5722B-888A-465B-AF41-01317B3BFE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E5722B-888A-465B-AF41-01317B3BFE92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA79B37-B44F-4CE7-BC78-608911E0C9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA79B37-B44F-4CE7-BC78-608911E0C9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA79B37-B44F-4CE7-BC78-608911E0C9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA79B37-B44F-4CE7-BC78-608911E0C9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626E4791-D88F-45D0-A219-294BD49297EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626E4791-D88F-45D0-A219-294BD49297EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626E4791-D88F-45D0-A219-294BD49297EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626E4791-D88F-45D0-A219-294BD49297EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296A50AD-DDA4-42AE-8958-2C3A013D5F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296A50AD-DDA4-42AE-8958-2C3A013D5F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296A50AD-DDA4-42AE-8958-2C3A013D5F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296A50AD-DDA4-42AE-8958-2C3A013D5F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204931BE-D2BF-49C6-9575-33F7C7AFA666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204931BE-D2BF-49C6-9575-33F7C7AFA666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204931BE-D2BF-49C6-9575-33F7C7AFA666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204931BE-D2BF-49C6-9575-33F7C7AFA666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0EE731-1AA2-4576-85B2-A43E61A0E583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0EE731-1AA2-4576-85B2-A43E61A0E583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0EE731-1AA2-4576-85B2-A43E61A0E583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0EE731-1AA2-4576-85B2-A43E61A0E583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
