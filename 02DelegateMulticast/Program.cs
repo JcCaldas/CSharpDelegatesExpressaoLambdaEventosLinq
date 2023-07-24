@@ -26,5 +26,5 @@ static void Metodo3(string mensagem)
     Console.WriteLine("Método 3: " + mensagem);
 }
 
-public delegate string MeuDelegateMultiCast (float x, float y);
+//public delegate string MeuDelegateMultiCast (float x, float y);
 public delegate void MeuDelegateMultiCast2(string mensagem);
