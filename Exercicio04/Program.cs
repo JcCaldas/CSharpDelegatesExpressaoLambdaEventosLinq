@@ -11,10 +11,15 @@ for  (int i = 1; i <= 20; i++)
     lista.Add(i);
 }
 
-foreach (var item in lista)
+Console.WriteLine("Números Pares\n");
+//Define um delegate Action<int> que verifica se um número é par e imprime na tela caso seja. 
+Action<int> imprimirPares = n =>
 {
-    if (item % 2 == 0)
+    if (n % 2 == 0)
     {
-
+        Console.Write($"{n} ");
     }
-}
+};
+
+//O método ForEach da lista de inteiros recebe o delegate como parâmetro e executa o método para cada elemento da lista.
+lista.ForEach(imprimirPares);
